@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Demo Test Plan]">
+  <test name="Functional Tests(failed)">
+    <classes>
+      <class name="demo.test.GoogleTranslate">
+        <methods>
+          <include name="after"/>
+          <include name="xTest"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- demo.test.GoogleTranslate -->
+    </classes>
+  </test> <!-- Functional Tests(failed) -->
+</suite> <!-- Failed suite [Demo Test Plan] -->

@@ -1,0 +1,397 @@
+<html>
+<head>
+<title>TestNG:  Functional Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Functional Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Aug 11 19:00:56 MSK 2014</td>
+</tr>
+<tr><td>Total time:</td><td>657 seconds (657828 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='demo.test.ABook.xTest()'><b>xTest</b><br>Test class: demo.test.ABook<br/>
+<a href="#Output-21137114" onClick='toggleBox("Output-21137114", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-21137114" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-21137114">
+-------------------------------------------------------------------------<br><br/>
+=====================  Test case: 'demo.test.ABook' =====================<br><br/>
+-------------------------------------------------------------------------<br><br/>
+--------==[ Preconditions ]==--------<br><br/>
+--------==[ Step 1 ]==--------<br><br/>
+--------==[ Step 2 ]==--------<br><br/>
+Form 'Страница ABook' appears in 985msec<br><br/>
+--------==[ Step 3 ]==--------<br><br/>
+Label 'По дате обновления' :: Clicking<br><br/>
+--------==[ Step 4 ]==--------<br><br/>
+Label 'По году' :: Clicking<br><br/>
+--------==[ Step 5 ]==--------<br><br/>
+Label 'По рейтингу' :: Clicking<br><br/>
+--------==[ Step 6 ]==--------<br><br/>
+Label 'По просмотрам' :: Clicking<br><br/>
+--------==[ Step 7 ]==--------<br><br/>
+Label 'По времени звучания' :: Clicking<br><br/>
+<br><br/>
+************************************************<br><br/>
+***** Test case: 'demo.test.ABook' Passed! *****<br><br/>
+************************************************<br><br/>
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>46</td>
+<td>demo.test.ABook@1324072</td></tr>
+<tr>
+<td title='demo.test.GoogleTranslate.xTest()'><b>xTest</b><br>Test class: demo.test.GoogleTranslate<br/>
+<a href="#Output-3084833" onClick='toggleBox("Output-3084833", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-3084833" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-3084833">
+-----------------------------------------------------------------------------------<br><br/>
+=====================  Test case: 'demo.test.GoogleTranslate' =====================<br><br/>
+-----------------------------------------------------------------------------------<br><br/>
+--------==[ Preconditions ]==--------<br><br/>
+--------==[ Step 1 ]==--------<br><br/>
+--------==[ Step 2 ]==--------<br><br/>
+Form 'Страница Google Translate' appears in 360msec<br><br/>
+--------==[ Step 3 ]==--------<br><br/>
+Text Field 'Поле для ввода текста' :: Typing 'Translate'<br><br/>
+--------==[ Step 4 ]==--------<br><br/>
+Button 'Озвучить перевод' :: Clicking<br><br/>
+--------==[ Step 5 ]==--------<br><br/>
+Button 'Выбор языка перевода' :: Clicking<br><br/>
+Button 'Нерепести на португальский' :: Clicking<br><br/>
+Button 'Озвучить перевод' :: Clicking<br><br/>
+<br><br/>
+**********************************************************<br><br/>
+***** Test case: 'demo.test.GoogleTranslate' Passed! *****<br><br/>
+**********************************************************<br><br/>
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>demo.test.GoogleTranslate@1c925db</td></tr>
+<tr>
+<td title='demo.test.Kinoklad.xTest()'><b>xTest</b><br>Test class: demo.test.Kinoklad<br/>
+<a href="#Output-31941761" onClick='toggleBox("Output-31941761", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-31941761" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-31941761">
+----------------------------------------------------------------------------<br><br/>
+=====================  Test case: 'demo.test.Kinoklad' =====================<br><br/>
+----------------------------------------------------------------------------<br><br/>
+--------==[ Preconditions ]==--------<br><br/>
+--------==[ Step 1 ]==--------<br><br/>
+--------==[ Step 2 ]==--------<br><br/>
+Form 'Страница Kinoklad.ru' appears in 516msec<br><br/>
+--------==[ Step 3 ]==--------<br><br/>
+Text Field 'Строка поиска' :: Typing 'Планета обезьян'<br><br/>
+Button 'Кнопка поиска' :: Clicking<br><br/>
+--------==[ Step 4 ]==--------<br><br/>
+--------==[ Step 5 ]==--------<br><br/>
+Label 'Фильм Планета обезьян: Революция' :: Clicking<br><br/>
+--------==[ Step 6 ]==--------<br><br/>
+Text Field 'Имя комментатора' :: Typing 'Stas'<br><br/>
+Text Field 'E-mail комментатора' :: Typing 'stas_man@tut.by'<br><br/>
+Text Field 'Комментарий' :: Typing 'Отличный фильм'<br><br/>
+Button 'Кнопка отправить комментарий' :: Clicking<br><br/>
+--------==[ Step 7 ]==--------<br><br/>
+<br><br/>
+***************************************************<br><br/>
+***** Test case: 'demo.test.Kinoklad' Passed! *****<br><br/>
+***************************************************<br><br/>
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>demo.test.Kinoklad@d454f5</td></tr>
+<tr>
+<td title='demo.test.MinskShop.xTest()'><b>xTest</b><br>Test class: demo.test.MinskShop<br/>
+<a href="#Output-9208405" onClick='toggleBox("Output-9208405", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-9208405" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-9208405">
+-----------------------------------------------------------------------------<br><br/>
+=====================  Test case: 'demo.test.MinskShop' =====================<br><br/>
+-----------------------------------------------------------------------------<br><br/>
+--------==[ Preconditions ]==--------<br><br/>
+--------==[ Step 1 ]==--------<br><br/>
+--------==[ Step 2 ]==--------<br><br/>
+Form 'Страница Onliner' appears in 735msec<br><br/>
+--------==[ Step 3 ]==--------<br><br/>
+Text Field 'Строка поиска товара' :: Typing 'Globus 510'<br><br/>
+Button 'кнопка поиска' :: Clicking<br><br/>
+--------==[ Step 4 ]==--------<br><br/>
+Label 'выбираем товар' :: Clicking<br><br/>
+--------==[ Step 5 ]==--------<br><br/>
+Button 'кнопка поиска' :: Clicking<br><br/>
+--------==[ Step 6 ]==--------<br><br/>
+Button 'кнопка поиска' :: Clicking<br><br/>
+Label 'корзина' :: Clicking<br><br/>
+<br><br/>
+****************************************************<br><br/>
+***** Test case: 'demo.test.MinskShop' Passed! *****<br><br/>
+****************************************************<br><br/>
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>demo.test.MinskShop@186a6d2</td></tr>
+<tr>
+<td title='demo.test.MinskShopCompare.xTest()'><b>xTest</b><br>Test class: demo.test.MinskShopCompare<br/>
+<a href="#Output-27532974" onClick='toggleBox("Output-27532974", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-27532974" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-27532974">
+------------------------------------------------------------------------------------<br><br/>
+=====================  Test case: 'demo.test.MinskShopCompare' =====================<br><br/>
+------------------------------------------------------------------------------------<br><br/>
+--------==[ Preconditions ]==--------<br><br/>
+--------==[ Step 1 ]==--------<br><br/>
+--------==[ Step 2 ]==--------<br><br/>
+Form 'Страница Onliner' appears in 531msec<br><br/>
+--------==[ Step 3 ]==--------<br><br/>
+Label 'Электронные сигареты' :: Clicking<br><br/>
+Label 'Сигареты' :: Clicking<br><br/>
+--------==[ Step 4 ]==--------<br><br/>
+Button 'Добавление в список сравнения' :: Clicking<br><br/>
+Button 'Добавление в список сравнения' :: Clicking<br><br/>
+Button 'Сравнение' :: Clicking<br><br/>
+<br><br/>
+***********************************************************<br><br/>
+***** Test case: 'demo.test.MinskShopCompare' Passed! *****<br><br/>
+***********************************************************<br><br/>
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>221</td>
+<td>demo.test.MinskShopCompare@15d176</td></tr>
+<tr>
+<td title='demo.test.Onliner.xTest()'><b>xTest</b><br>Test class: demo.test.Onliner<br/>
+<a href="#Output-8381772" onClick='toggleBox("Output-8381772", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-8381772" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-8381772">
+---------------------------------------------------------------------------<br><br/>
+=====================  Test case: 'demo.test.Onliner' =====================<br><br/>
+---------------------------------------------------------------------------<br><br/>
+--------==[ Preconditions ]==--------<br><br/>
+--------==[ Step 1 ]==--------<br><br/>
+--------==[ Step 2 ]==--------<br><br/>
+Form 'Страница Onliner' appears in 266msec<br><br/>
+--------==[ Step 3 ]==--------<br><br/>
+Text Field 'Строка ввода логина' :: Typing 'stas_man@tut.by'<br><br/>
+Text Field 'Строка ввода пароля' :: Typing '155155ss'<br><br/>
+Button 'кнопка Submit' :: Clicking<br><br/>
+--------==[ Step 4 ]==--------<br><br/>
+--------==[ Step 5 ]==--------<br><br/>
+--------==[ Step 6 ]==--------<br><br/>
+Label 'Авторизованный пользователь' :: Clicking<br><br/>
+--------==[ Step 7 ]==--------<br><br/>
+Label 'Закладки пользователя' :: Clicking<br><br/>
+<br><br/>
+**************************************************<br><br/>
+***** Test case: 'demo.test.Onliner' Passed! *****<br><br/>
+**************************************************<br><br/>
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>42</td>
+<td>demo.test.Onliner@1daf304</td></tr>
+<tr>
+<td title='demo.test.OnlinerBuy.xTest()'><b>xTest</b><br>Test class: demo.test.OnlinerBuy<br/>
+<a href="#Output-27290533" onClick='toggleBox("Output-27290533", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-27290533" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-27290533">
+------------------------------------------------------------------------------<br><br/>
+=====================  Test case: 'demo.test.OnlinerBuy' =====================<br><br/>
+------------------------------------------------------------------------------<br><br/>
+--------==[ Preconditions ]==--------<br><br/>
+--------==[ Step 1 ]==--------<br><br/>
+--------==[ Step 2 ]==--------<br><br/>
+Form 'Страница Onliner' appears in 313msec<br><br/>
+--------==[ Step 3 ]==--------<br><br/>
+Text Field 'Строка ввода логина' :: Typing 'stas_man@tut.by'<br><br/>
+Text Field 'Строка ввода пароля' :: Typing '155155ss'<br><br/>
+Button 'кнопка Submit' :: Clicking<br><br/>
+--------==[ Step 4 ]==--------<br><br/>
+Label 'Раздел Каталог и цены' :: Clicking<br><br/>
+--------==[ Step 5 ]==--------<br><br/>
+Label 'Проводные телефоны' :: Clicking<br><br/>
+--------==[ Step 5 ]==--------<br><br/>
+Text Field 'Минимальная цена' :: Typing '5'<br><br/>
+Text Field 'Максимальная цена' :: Typing '15'<br><br/>
+Button 'кнопка Подобрать' :: Clicking<br><br/>
+<br><br/>
+*****************************************************<br><br/>
+***** Test case: 'demo.test.OnlinerBuy' Passed! *****<br><br/>
+*****************************************************<br><br/>
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>47</td>
+<td>demo.test.OnlinerBuy@188c3f4</td></tr>
+<tr>
+<td title='demo.test.OnlinerForum.xTest()'><b>xTest</b><br>Test class: demo.test.OnlinerForum<br/>
+<a href="#Output-19358738" onClick='toggleBox("Output-19358738", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-19358738" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-19358738">
+--------------------------------------------------------------------------------<br><br/>
+=====================  Test case: 'demo.test.OnlinerForum' =====================<br><br/>
+--------------------------------------------------------------------------------<br><br/>
+--------==[ Preconditions ]==--------<br><br/>
+--------==[ Step 1 ]==--------<br><br/>
+--------==[ Step 2 ]==--------<br><br/>
+Form 'Страница Onliner' appears in 266msec<br><br/>
+--------==[ Step 3 ]==--------<br><br/>
+Label 'Форум' :: Clicking<br><br/>
+--------==[ Step 4 ]==--------<br><br/>
+Text Field 'Строка поиска темы' :: Typing 'World of Tanks'<br><br/>
+--------==[ Step 5 ]==--------<br><br/>
+Button 'кнопка Найти' :: Clicking<br><br/>
+<br><br/>
+*******************************************************<br><br/>
+***** Test case: 'demo.test.OnlinerForum' Passed! *****<br><br/>
+*******************************************************<br><br/>
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>35</td>
+<td>demo.test.OnlinerForum@bc8807</td></tr>
+<tr>
+<td title='demo.test.OnlinerIron.xTest()'><b>xTest</b><br>Test class: demo.test.OnlinerIron<br/>
+<a href="#Output-10684447" onClick='toggleBox("Output-10684447", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-10684447" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-10684447">
+-------------------------------------------------------------------------------<br><br/>
+=====================  Test case: 'demo.test.OnlinerIron' =====================<br><br/>
+-------------------------------------------------------------------------------<br><br/>
+--------==[ Preconditions ]==--------<br><br/>
+--------==[ Step 1 ]==--------<br><br/>
+--------==[ Step 2 ]==--------<br><br/>
+Form 'Страница Onliner' appears in 282msec<br><br/>
+--------==[ Step 3 ]==--------<br><br/>
+Label 'Барахолка' :: Clicking<br><br/>
+--------==[ Step 4 ]==--------<br><br/>
+Text Field 'Строка ввода для поиска товара' :: Typing 'Утюг'<br><br/>
+--------==[ Step 5 ]==--------<br><br/>
+Button 'кнопка Найти' :: Clicking<br><br/>
+<br><br/>
+******************************************************<br><br/>
+***** Test case: 'demo.test.OnlinerIron' Passed! *****<br><br/>
+******************************************************<br><br/>
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>32</td>
+<td>demo.test.OnlinerIron@6abdec</td></tr>
+<tr>
+<td title='demo.test.ProTorrent.xTest()'><b>xTest</b><br>Test class: demo.test.ProTorrent<br/>
+<a href="#Output-30541005" onClick='toggleBox("Output-30541005", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-30541005" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-30541005">
+------------------------------------------------------------------------------<br><br/>
+=====================  Test case: 'demo.test.ProTorrent' =====================<br><br/>
+------------------------------------------------------------------------------<br><br/>
+--------==[ Preconditions ]==--------<br><br/>
+--------==[ Step 1 ]==--------<br><br/>
+--------==[ Step 2 ]==--------<br><br/>
+Form 'Страница Pro-Torrent.com' appears in 391msec<br><br/>
+--------==[ Step 3 ]==--------<br><br/>
+Text Field 'Строка поиска' :: Typing 'Мишки Гамии'<br><br/>
+Button 'Кнопка поиска' :: Clicking<br><br/>
+--------==[ Step 4 ]==--------<br><br/>
+--------==[ Step 5 ]==--------<br><br/>
+--------==[ Step 6 ]==--------<br><br/>
+Label 'как скачать фильм' :: Clicking<br><br/>
+<br><br/>
+*****************************************************<br><br/>
+***** Test case: 'demo.test.ProTorrent' Passed! *****<br><br/>
+*****************************************************<br><br/>
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>23</td>
+<td>demo.test.ProTorrent@11656b</td></tr>
+</table><p>
+</body>
+</html>

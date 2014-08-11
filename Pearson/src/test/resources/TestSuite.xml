@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Demo Test Plan" verbose="1">
+	
+	<test name="Functional Tests" preserve-order="true">
+		<classes>
+		 	<class name="demo.test.ABook" />
+ 			<class name="demo.test.GoogleTranslate" />
+ 			<class name="demo.test.Kinoklad" />
+			<class name="demo.test.MinskShop" />
+ 			<class name="demo.test.MinskShopCompare" />
+ 			<class name="demo.test.Onliner" />
+ 			<class name="demo.test.OnlinerBuy" />
+ 			<class name="demo.test.OnlinerForum" />
+ 			<class name="demo.test.OnlinerIron" />
+ 			<class name="demo.test.ProTorrent" />
+        </classes>
+	</test>
+</suite>
